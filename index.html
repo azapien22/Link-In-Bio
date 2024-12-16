@@ -7,15 +7,29 @@
     <title>Link-In-Bio</title>
     <!-- Add your stylesheets here -->
      <style>
-      * {
-        border: 1px red dashed;
+      body {
+        padding: 40px 0px 40px 0px;
+      }
+
+      .avatar-img {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
       }
      </style>
 </head>
 <body>
   <div class="main-container">
     <div class="image-row">
-      <img src="/Pics/profilepic/me.jpg" alt=" Amaury Zapien headshot">
+      <img class="avatar-img" src="/Pics/profilepic/me.jpg" alt=" Amaury Zapien headshot">
     </div>
     <div class="name-row">
       Amaury Zapien
@@ -36,25 +50,25 @@
     </div>
     <div class="links-row">
       <div class="item">
-        <img src="/Pics/thumbnails/crown.jpg" alt="gold crown thumbnail"> 
+        <img class="thumbnail" src="/Pics/thumbnails/crown.jpg" alt="gold crown thumbnail"> 
         <a href="https://azapien22.github.io/portfolio/" target="_blank">
           Check out my Portfolio - look at view page source.
         </a>
       </div>
       <div class="item">
-        <img src="/Pics/thumbnails/blkcrwn.jpg">
+        <img class="thumbnail" src="/Pics/thumbnails/blkcrwn.jpg">
         <a href="https://caferati.me/" target="_blank">
           Check out an Award Winning Portfolio Website.
         </a>
       </div>
       <div class="item">
-        <img src="/Pics/thumbnails/greencrwn.jpg" alt="green crown thumbnail">
+        <img class="thumbnail" src="/Pics/thumbnails/greencrwn.jpg" alt="green crown thumbnail">
         <a href="https://fullpage.caferati.me/ target="_blank">
           Check out an awesome React Full-page transitions.
         </a>
       </div>
       <div class="item">
-        <img src="/Pics/thumbnails/ruby.png" alt="red ruby diamond">
+        <img class="thumbnail" src="/Pics/thumbnails/ruby.png" alt="red ruby diamond">
         <a href="https://www.ruby-lang.org/en/" target="_blank">
           Feeling Lost with Ruby? Check out the Ruby Documentation. 
         </a>
